@@ -1,7 +1,7 @@
 {
   "author": "{%= author_name %}",
   "build": "{%= build %}",
-  "category": ["in-game", "ui"],
+  "category": ["hotfix"],
   "context": "client",
   "date": "{%= grunt.template.today('yyyy/mm/dd') %}",
   "description": "{%= description %}",
@@ -16,7 +16,7 @@
     "{%= scene %}": [
       "coui://ui/mods/{%= name %}/{%= name %}.css",
       "coui://ui/mods/{%= name %}/{%= name %}.js"
-    ],
+    ]
   },
   "signature": "not yet implemented",
   "version": "{%= version %}"

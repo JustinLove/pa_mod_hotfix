@@ -1,5 +1,5 @@
 {
-  "ui/mods/pa_mod_basic/pa_mod_basic.css": "ui/mods/{%= name %}/{%= name %}.css",
-  "ui/mods/pa_mod_basic/pa_mod_basic.js": "ui/mods/{%= name %}/{%= name %}.js",
-  "ui/mods/pa_mod_basic/pa_mod_basic.html": "ui/mods/{%= name %}/{%= name %}.html"
+  "ui/mods/pa_mod_hotfix/pa_mod_hotfix.css": "ui/mods/{%= name %}/{%= name %}.css",
+  "ui/mods/pa_mod_hotfix/pa_mod_hotfix.js": "ui/mods/{%= name %}/{%= name %}.js",
+  "ui/mods/pa_mod_hotfix/pa_mod_hotfix.html": "ui/mods/{%= name %}/{%= name %}.html"
 }

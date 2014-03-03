@@ -23,7 +23,7 @@ exports.template = function(grunt, init, done) {
     // Prompt for these values.
     init.prompt('name'),
     init.prompt('title'),
-    init.prompt('description', 'The best PA mod ever.'),
+    init.prompt('description', 'Hot fix for... in version...'),
     init.prompt('author_name'),
     init.prompt('identifier', function(value, props, done) {
       done(null, 'pa.' + props.author_name + '.' + props.name)
@@ -32,7 +32,7 @@ exports.template = function(grunt, init, done) {
     init.prompt('forum'),
     init.prompt('licenses', 'Apache-2.0'),
     init.prompt('scene', 'live_game'),
-    init.prompt('build', '61941'),
+    init.prompt('build'),
   ], function(err, props) {
     // Files to copy (and process).
     var files = init.filesToCopy(props);
