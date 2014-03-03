@@ -1,4 +1,4 @@
-.{%= name %} {
+.{%= name %}_message {
   color: white;
   font-size: 5vh;
   position: absolute;

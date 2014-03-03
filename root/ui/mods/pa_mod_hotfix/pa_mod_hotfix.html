@@ -1,3 +1,13 @@
-<div class="{%= name %}">
+<div class="{%= name %}_message">
   {%= title %}
+</div>
+
+<div class="{%= name %}_dialog" data-bind="visible: buildVersion() != '{%= build %}'">
+    <div class="primary_msg" style="font-family:Sansation Bold;">
+      You have a hotfix which only applies to {%= build %} but you are running <!--ko text: buildVersion--><!--/ko -->
+    </div>
+    <div class="body_light">
+        <br/>
+        Please uninstall "{%= title %}"
+    </div>
 </div>
