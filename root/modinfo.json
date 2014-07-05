@@ -10,9 +10,12 @@
   "identifier": "{%= identifier %}",
   "priority": 100,
   "scenes": {
+    "start": [
+      "coui://ui/mods/{%= name %}/warning.css",
+      "coui://ui/mods/{%= name %}/warning.js"
+    ],
     "{%= scene %}": [
-      "coui://ui/mods/{%= name %}/{%= name %}.css",
-      "coui://ui/mods/{%= name %}/{%= name %}.js"
+      "coui://ui/mods/{%= name %}/hotfix.js"
     ]
   },
   "signature": "not yet implemented",

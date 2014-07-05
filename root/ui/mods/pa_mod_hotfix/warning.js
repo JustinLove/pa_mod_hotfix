@@ -31,7 +31,7 @@
   var enableCanery = function() {
     var container = $('<div id="insertion_point"></div>')
     container.appendTo('body')
-    loadTemplate(container, 'coui://ui/mods/{%= name %}/{%= name %}.html', model);
+    loadTemplate(container, 'coui://ui/mods/{%= name %}/warning.html', model);
   }
 
   //enableCanery()
