@@ -33,6 +33,11 @@
     container.appendTo('body')
     loadTemplate(container, 'coui://ui/mods/{%= name %}/warning.html', model);
   }
-
-  //enableCanery()
+/*
+  if (model.buildVersion()) {
+    enableCanery()
+  } else {
+    model.buildVersion.subscribe(enableCanery)
+  }
+*/
 })()
